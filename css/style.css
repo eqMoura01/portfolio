@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(35, 0, 90);
+    color: gold;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+    justify-content: space-between;
+    box-shadow: 0 0.5px 6px black;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#navigation {
+    gap: 30px;
+    font-size: 1.5rem;
+}
+
+#header-logo {
+    width: 150px;
+}
+
+main {
+    padding: 0 80px;
+    padding-top: 120px;
+
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 20px 0 20px 0;
+    scroll-margin-top: 120px;
+}
+
+#sobre {
+    display: flex;
+    gap: 80px;
+    font-size: 1.5rem;
+    align-items: flex-start;
+
+}
+
+#sobre img {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1.7rem;
+}
+
+#sobre p {
+    color: white;
+}
+
+.enfase {
+    font-weight: 700;
+}
+
+#tecnologias {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 100px 0 200px 0;
+    scroll-margin-top: 100px;
+}
+
+#tecnologias h2 {
+    text-align: right;
+}
+
+.teste {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.barras {
+    display: flex;
+    height: 50px;
+}
+
+.img-holder {
+    background-color: rgb(230, 230, 230);
+    width: fit-content;
+    width: 80px;
+    height: 100%;
+    display: flex;
+    padding: 4px;
+    border-radius: 10px 0 0 10px;
+}
+
+.barras img {
+    width: 100%;
+
+    background-color: rgb(230, 230, 230);
+    padding: 0 20px 0 20px;
+
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #eee;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.java-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 65%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.spring-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 60%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.react-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 20%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.mysql-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 40%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.bubble-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 70%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.js-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 35%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.html-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 25%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.css-progress {
+    /* Ajuste este valor para definir o progresso desejado */
+    width: 15%;
+    background-color: #6600a1;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: width 0.3s ease-in-out;
+}
+
+#contato {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contato h2 {
+    text-align: center;
+}
+
+.redes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 10px);
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    gap: 40px;
+}
+
+.rede {
+    width: fit-content;
+    height: fit-content;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.rede img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    padding: 100px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
